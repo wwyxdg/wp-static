@@ -1,0 +1,360 @@
+# Copyright (C) 2019 Nicetheme
+# This file is distributed under the .
+msgid ""
+msgstr ""
+"Project-Id-Version: Echo 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/Echo\n"
+"POT-Creation-Date: 2019-11-01T15:33:20+00:00\n"
+"PO-Revision-Date: 2019-11-01 23:34+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Domain: echo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Theme Name of the theme
+msgid "Echo"
+msgstr "Echo"
+
+#. Theme URI of the theme
+#. Author URI of the theme
+msgid "https://www.nicetheme.cn/"
+msgstr "https://www.nicetheme.cn/"
+
+#. Description of the theme
+msgid ""
+"The well-received day-night and classic three-column design, the 2019 ending "
+"WordPress theme: Echo, which means always remember there will be "
+"reverberations. On the occasion of the double eleven promotion, Echo now "
+"responds to your waiting."
+msgstr ""
+"优雅是锋芒，卓越是内敛。广受好评的昼夜双版，经典独到的三栏设计，2019 年收官力"
+"作——念念不忘，必有回响。在双十一大促之际，秉承始终不将就的设计理念：Echo，现"
+"在回应你的等待。"
+
+#. Author of the theme
+msgid "nicetheme"
+msgstr "nicetheme"
+
+#: functions.php:46
+msgid "Primary Navigation"
+msgstr "主导航"
+
+#: functions.php:47
+msgid "Mobile Navigation"
+msgstr "移动导航"
+
+#: functions.php:91
+msgid "Main Sidebar"
+msgstr "主侧边栏"
+
+#: functions.php:93 functions.php:102 functions.php:110 functions.php:119
+#: functions.php:128 functions.php:137 functions.php:146
+msgid "Add widgets here."
+msgstr "在这里添加小工具。"
+
+#: functions.php:100
+msgid "Main Sidebar(left)"
+msgstr "主侧边栏（左）"
+
+#: functions.php:109
+msgid "Archive Sidebar"
+msgstr "归档侧栏"
+
+#: functions.php:118
+msgid "Archive Sidebar(left)"
+msgstr "归档侧栏（左）"
+
+#: functions.php:127
+msgid "Single Sidebar"
+msgstr "文章侧栏"
+
+#: functions.php:136
+msgid "Author Sidebar"
+msgstr "作者侧栏"
+
+#: functions.php:145
+msgid "Page Sidebar"
+msgstr "页面侧栏"
+
+#: functions.php:202
+msgid "Topics"
+msgstr "专题标签"
+
+#: functions.php:265
+msgid "Sorry, comments are closed."
+msgstr "抱歉，评论已关闭。"
+
+#: functions.php:268 functions.php:271
+msgid "Unknown error."
+msgstr "未知错误。"
+
+#: functions.php:274
+msgid "Password protected."
+msgstr "该页面受密码保护。"
+
+#: functions.php:294
+msgid "Sorry, you must be logged in to leave a comment"
+msgstr "抱歉，您必须登录后才能发表评论。"
+
+#: functions.php:299
+msgid "Please fill in the required options (Name, Email)."
+msgstr "错误：请填写必须的选项（姓名，电子邮件）。"
+
+#: functions.php:301
+msgid "Please input a valid email address."
+msgstr "请输入有效的电子邮件地址。"
+
+#: functions.php:304
+msgid "Say something..."
+msgstr "说点什么吧…"
+
+#: functions.php:309
+msgid "Please do not repeat your comments. :)"
+msgstr "aha~似乎说过这句话了 :)"
+
+#: functions.php:317
+msgid "You reply too fast. Take it easy."
+msgstr "你回复太快啦。慢慢来。"
+
+#: inc/static-load.php:33 comments.php:138
+#: template-parts/post-navigation.php:17
+msgid "Load more..."
+msgstr "加载更多"
+
+#: inc/static-load.php:34
+msgid "You've reached the end."
+msgstr "- 没有更多内容 -"
+
+#: inc/static-load.php:35
+msgid "Thank you!"
+msgstr "谢谢点赞"
+
+#: inc/static-load.php:36
+msgid "Success!"
+msgstr "操作成功"
+
+#: inc/static-load.php:37
+msgid "Cancelled."
+msgstr "取消点赞"
+
+#: inc/template-tags.php:21
+msgid "Home"
+msgstr "我的主页"
+
+#: inc/template-tags.php:23
+msgid "Search Result \"%s\""
+msgstr "%s 搜索结果"
+
+#: inc/template-tags.php:24
+msgid "Topic %s"
+msgstr "专题 %s"
+
+#: inc/template-tags.php:25
+msgid "Tag %s"
+msgstr "标签 %s"
+
+#: inc/template-tags.php:26
+msgid "%s's Posts"
+msgstr "%s 的文章"
+
+#: inc/template-tags.php:27
+msgid "404 Not Found"
+msgstr "404 未找到"
+
+#: inc/template-tags.php:28
+msgid "Page %s"
+msgstr "第 %s 页"
+
+#: inc/template-tags.php:29
+msgid "Comment Page %s"
+msgstr "评论页 %s"
+
+#: inc/template-tags.php:234
+msgid "Admin"
+msgstr "站长"
+
+#: inc/template-functions.php:417
+msgid "Administrator"
+msgstr "站长"
+
+#: inc/template-functions.php:419
+msgid "Certified Editor"
+msgstr "认证编辑"
+
+#: inc/template-functions.php:421
+msgid "Special Author"
+msgstr "特约作者"
+
+#: inc/template-functions.php:423
+msgid "Subscriber"
+msgstr "订阅者"
+
+#: inc/template-functions.php:426
+msgid "Contributor"
+msgstr "投稿者"
+
+#: archive.php:30
+msgid "%d"
+msgstr ""
+
+#: comments.php:32
+msgid "<span>Comments</span>"
+msgstr "<span>评论</span>"
+
+#: comments.php:40
+msgid "Please login to leave a comment."
+msgstr "请登录以参与评论。"
+
+#: comments.php:41
+msgid "Login now."
+msgstr "现在登录。"
+
+#: comments.php:79
+msgid "Submit"
+msgstr "发布评论"
+
+#: comments.php:95
+msgid "Nickname"
+msgstr "昵称"
+
+#: comments.php:100
+msgid "Email"
+msgstr "Email"
+
+#: comments.php:105
+msgid "Website"
+msgstr "网站地址"
+
+#: comments.php:143
+msgid "Comments are closed."
+msgstr "评论已关闭。"
+
+#: search.php:23
+msgid "Search: "
+msgstr "搜索： "
+
+#: header.php:42
+msgid ""
+"<li><a href=\"/wp-admin/nav-menus.php\">Please set up your first menu at "
+"[Admin -> Appearance -> Menus]</a></li>"
+msgstr ""
+"<li><a href=\"/wp-admin/nav-menus.php\">请到 [后台->外观->菜单] 中设置菜单</"
+"a></li>"
+
+#: template-parts/related-posts.php:34
+msgid "Related Posts"
+msgstr "相关文章"
+
+#: template-parts/content/content-none.php:4 template-parts/error-none.php:4
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr "看起来这里没有任何东西…"
+
+#: template-parts/post-meta.php:12
+msgid "Edit Post"
+msgstr "编辑文章"
+
+#: template-parts/site-search.php:7
+msgid "Type anything to search..."
+msgstr "请输入搜索关键词并按回车键…"
+
+#: template-parts/site-search.php:9
+msgid "Search"
+msgstr "搜索"
+
+#: template-parts/post-footer.php:33
+msgid "The article is modified by @%s on %s."
+msgstr "本文由 @%s 修订发布于 %s。"
+
+#: template-parts/post-footer.php:39
+msgid ""
+"The article is originally written by @%s posted on %s. All rights reserved."
+msgstr "本文系作者 @%s 原创发布在 %s。未经许可，禁止转载。"
+
+#: template-parts/post-footer.php:45
+msgid "The article is written by @%s posted on %s. All rights reserved."
+msgstr "本文系作者 @%s 授权发布在 %s。未经许可，禁止转载。"
+
+#: comment.php:24
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正在等待审核。"
+
+#. Template Name of the theme
+msgid "Full Page"
+msgstr "全宽页面"
+
+#. Template Name of the theme
+msgid "Topic Page"
+msgstr "专题汇总"
+
+#: widgets/author-card.php:12 widgets/author-card.php:14
+msgid "Echo - Author Card"
+msgstr "Echo - 作者卡片"
+
+#: widgets/menu-cat.php:11 widgets/menu-cat.php:13
+msgid "Echo - Menu Cat"
+msgstr "Echo - 菜单卡片"
+
+#: widgets/hot-tags.php:30 widgets/hot-tags.php:32
+msgid "Echo - Hot Tags"
+msgstr "Echo - 热门标签"
+
+#: widgets/recommended-posts.php:30 widgets/recommended-posts.php:32
+msgid "Echo - Recommended Posts"
+msgstr "Echo - 文章聚合"
+
+#: widgets/recommended-posts.php:212 widgets/recommended-topics.php:88
+msgid "Not found any posts..."
+msgstr "没有更多文章..."
+
+#: widgets/recommended-topics.php:32 widgets/recommended-topics.php:34
+msgid "Echo - Recommended Topics"
+msgstr "Echo - 推荐专题"
+
+#~ msgid "Table of Contents"
+#~ msgstr "文章目录"
+
+#~ msgid "%d posts"
+#~ msgstr "%s 篇文章"
+
+#~ msgid "Description"
+#~ msgstr "描述"
+
+#~ msgid "Footer Navigation"
+#~ msgstr "底部导航"
+
+#~ msgid "Partners: "
+#~ msgstr "合作伙伴："
+
+#~ msgid "News"
+#~ msgstr "快讯"
+
+#~ msgid "Add News"
+#~ msgstr "添加快讯"
+
+#~ msgid "All News"
+#~ msgstr "所有快讯"
+
+#~ msgid "View News"
+#~ msgstr "查看快讯"
+
+#~ msgid "We can't find anything..."
+#~ msgstr "并未找到任何快讯..."
+
+#~ msgid "We can't find anything in trash..."
+#~ msgstr "在回收站内并未找到任何快讯…"
+
+#~ msgid "News Category"
+#~ msgstr "快讯分类"
+
+#~ msgid "Back"
+#~ msgstr "再想想"
+
+#~ msgid "Reply"
+#~ msgstr "回复"

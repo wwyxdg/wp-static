@@ -1,0 +1,11 @@
+<template id="site-search-template">
+	<div class="w-64 mx-auto my-4">
+	<svg t="1571940901442" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1220" data-spm-anchor-id="a313x.7781069.0.i9" width="64" height="64"><path d="M345.6 445.525333h-68.266667a12.8 12.8 0 0 1 0-25.6h68.266667a12.8 12.8 0 0 1 0 25.6zM465.066667 321.792h-68.266667a12.8 12.8 0 0 1 0-25.6h68.266667a12.8 12.8 0 0 1 0 25.6z m-119.466667 0h-68.266667a12.8 12.8 0 0 1 0-25.6h68.266667a12.8 12.8 0 0 1 0 25.6z" fill="#1089FF" p-id="1221" data-spm-anchor-id="a313x.7781069.0.i10" class=""></path><path d="M339.2 806.741333h-145.066667a68.266667 68.266667 0 0 1-68.266666-68.266666v-546.133334a68.266667 68.266667 0 0 1 68.266666-68.266666h576a68.266667 68.266667 0 0 1 68.266667 68.266666v161.450667a68.266667 68.266667 0 0 1-68.266667-68.266667V192.341333h-576v546.133334h76.8a68.266667 68.266667 0 0 1 68.266667 68.266666z" fill="#23374d" p-id="1222" data-spm-anchor-id="a313x.7781069.0.i11" class="selected"></path><path d="M864 899.925333a34.133333 34.133333 0 0 1-24.149333-9.984L750.933333 801.365333a34.133333 34.133333 0 0 1 48.298667-48.298666l88.576 88.576a34.133333 34.133333 0 0 1-24.149333 58.282666z" fill="#23374d" p-id="1223" data-spm-anchor-id="a313x.7781069.0.i7" class="selected"></path><path d="M626.602667 872.874667A244.565333 244.565333 0 1 1 799.573333 455.424a244.48 244.48 0 0 1-172.970666 417.450667z m0-420.778667A176.298667 176.298667 0 1 0 750.933333 503.466667a175.872 175.872 0 0 0-124.330666-51.2z" fill="#1089FF" p-id="1224" data-spm-anchor-id="a313x.7781069.0.i8" class=""></path></svg>
+	</div>
+	<form action="<?php echo home_url('/'); ?>" class="text-center px-md-5 pb-md-5">
+		<div class="form-group mb-md-4">
+			<input type="text" class="form-control form-control-lg" name="s" placeholder="<?php _e('Type anything to search...', 'echo') ?>">
+		</div>
+		<button type="submit" class="btn btn-primary btn-block"><?php _e('Search', 'echo') ?></button>
+	</form>
+</template>

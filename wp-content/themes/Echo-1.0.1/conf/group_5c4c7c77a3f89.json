@@ -1,0 +1,263 @@
+{
+    "key": "group_5c4c7c77a3f89",
+    "title": "Echo 主题 文章拓展",
+    "fields": [
+        {
+            "key": "field_5c4c8024dc42a",
+            "label": "推送设置",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5c99ab800127e",
+            "label": "显示头图",
+            "name": "head_img",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": [
+                "关闭",
+                "开启"
+            ],
+            "allow_null": 0,
+            "default_value": 0,
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5c4d17c6da331",
+            "label": "头图设置",
+            "name": "head_img_url",
+            "type": "image",
+            "instructions": "上传一张显示在文章顶部的图片，不填则获取特色或文中的图片。",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5c99ab800127e",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5c4d175ada32d",
+            "label": "版权声明",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5c4d1775da32n",
+            "label": "版权声明",
+            "name": "post_copyright",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": [
+                "不显示",
+                "默认",
+                "转载"
+            ],
+            "allow_null": 0,
+            "default_value": 1,
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5c6adc89ea5d9",
+            "label": "作者名称\/网站",
+            "name": "post_copyright_name",
+            "type": "text",
+            "instructions": "输入作者名称或网站名称",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5c4d1775da32n",
+                        "operator": "==",
+                        "value": "2"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5c6add18ea5da",
+            "label": "作者来源地址",
+            "name": "post_copyright_link",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5c4d1775da32n",
+                        "operator": "==",
+                        "value": "2"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ca193d0e0b9f",
+            "label": "文章目录",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5c8da73c4523b",
+            "label": "文章目录",
+            "name": "toc",
+            "type": "button_group",
+            "instructions": "仅对默认文章形式有效，提取标题标签作为分类目录。",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": [
+                "关闭",
+                "开启"
+            ],
+            "allow_null": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5c8da80f4523c",
+            "label": "提取标签",
+            "name": "toc_tag",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5c8da73c4523b",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "1": "&lt;h1&gt;",
+                "2": "&lt;h2&gt;",
+                "3": "&lt;h3&gt;",
+                "4": "&lt;h4&gt;",
+                "5": "&lt;h5&gt;"
+            },
+            "allow_null": 0,
+            "default_value": 2,
+            "layout": "horizontal",
+            "return_format": "value"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ],
+        [
+            {
+                "param": "post_format",
+                "operator": "==",
+                "value": "video"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "config_save_path": "themes\/Echo\/conf",
+    "modified": 1572339907
+}

@@ -1,0 +1,149 @@
+.dashicons-icon-nicetheme-2020-logo-border:before{
+    content:'';
+    background-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNDUuMTUgMTQ1LjE1Ij48ZGVmcz48c3R5bGU+LmNscy0ye2ZpbGw6I2ZmZn08L3N0eWxlPjwvZGVmcz48ZyBpZD0i5Zu+5bGCXzIiIGRhdGEtbmFtZT0i5Zu+5bGCIDIiPjxnIGlkPSLlm77lsYJfMS0yIiBkYXRhLW5hbWU9IuWbvuWxgiAxIj48cmVjdCB3aWR0aD0iMTQ1LjE1IiBoZWlnaHQ9IjE0NS4xNSIgcng9IjcyLjU4IiBmaWxsPSIjMDM0ZWZmIi8+PHJlY3QgY2xhc3M9ImNscy0yIiB4PSI5Mi41NSIgeT0iMjguNDUiIHdpZHRoPSIxNy44MyIgaGVpZ2h0PSIxNy44MyIgcng9IjguOTEiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik05OC40NyA1NC4zNmE4LjkyIDguOTIgMCAwMC0xMC4zMyA3LjIzTDg1IDc5LjQzbC0yMC41MS00NWExMCAxMCAwIDAwLS42NC0xLjQxbC0uMS0uMjJhMS41IDEuNSAwIDAwLS4zMy0uNDUgOC45IDguOSAwIDAwLTE2LjA5IDMuNTNsLTEyLjQyIDcwLjM3YTguOTEgOC45MSAwIDAwMTcuNTYgMy4wOWw3LjY5LTQzLjYgMjAuNzYgNDUuNTNhOC45MSA4LjkxIDAgMDAxNi45MS0yLjFsNy44NS00NC41MWE4LjkzIDguOTMgMCAwMC03LjIxLTEwLjN6TTY0LjM5IDQxLjc1TDg0IDg0LjgzbC0zLjI4IDE4LjYtMTkuNjEtNDMuMDl6Ii8+PC9nPjwvZz48L3N2Zz4=');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+#nicetheme-666 a:hover,
+#nicetheme-666 a:focus {
+    box-shadow: none !important;
+}
+
+#adminmenu .wp-menu-image img {
+    padding-top: 5px;
+}
+
+#nicetheme-666 .wp-filter {
+    position: relative;
+    -webkit-box-shadow: 0px 7px 14px 0px rgba(151, 160, 204, 0.12);
+    box-shadow: 0px 7px 14px 0px rgba(151, 160, 204, 0.12);
+    border: 0;
+    border-radius: .22rem;
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+#nicetheme-666 .wp-filter .vip {
+    display: inline-block;
+    -webkit-transform: translateY(-12px);
+    -ms-transform: translateY(-12px);
+    transform: translateY(-12px);
+    font-size: .75rem;
+    letter-spacing: 0.05em;
+    background: #f9e1be;
+    background: -webkit-linear-gradient(legacy-direction(to right), #efd3b0 0%, #f9e1be 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#efd3b0), to(#f9e1be));
+    background: -webkit-linear-gradient(left, #efd3b0 0%, #f9e1be 100%);
+    background: -o-linear-gradient(left, #efd3b0 0%, #f9e1be 100%);
+    background: linear-gradient(to top, #efd3b0 0%, #f9e1be 100%);
+    color: #ffffff;
+    border-radius: 1rem;
+    padding: .15rem .275rem;
+    line-height: 1;
+    font-weight: bold;
+}
+
+#nicetheme-666 .avatar {
+    display: inline-block;
+    position: relative;
+    top: 4px;
+}
+
+#nicetheme-666 .wp-filter .filter-links li>a {
+    padding: 22px 0 20px 0;
+    margin: 0 15px;
+}
+
+#nicetheme-666 .wp-filter .filter-links li>a:hover,
+#nicetheme-666 .wp-filter .filter-links li>a:focus {
+    color: #0674fd;
+    box-shadow: none;
+}
+
+#nicetheme-666 .wp-filter .filter-links li>a.current {
+    border-color: #0674fd
+}
+
+#nicetheme-666 .plugin-card {
+    -webkit-box-shadow: 0px 7px 14px 0px rgba(151, 160, 204, 0.12);
+    box-shadow: 0px 7px 14px 0px rgba(151, 160, 204, 0.12);
+    border: 0;
+    border-radius: .22rem;
+    position: relative;
+    overflow: hidden;
+}
+
+#nicetheme-666 .plugin-card-bottom {
+    background: #f9f9f9;
+    border-color: #f1f4f9;
+    padding: 15px 20px;
+}
+
+#nicetheme-666 .wp-list-table a {
+    color: #333;
+}
+
+#nicetheme-666 .wp-list-table a.button {
+    text-shadow: none;
+    box-shadow: none;
+    background: #fff;
+    padding: 0 15px 0;
+    border-radius: 30px;
+    border-color: rgb(212, 209, 249);
+    color: #726cc1;
+    line-height: 28px;
+    height: 30px;
+}
+
+#nicetheme-666 .wp-list-table a.delete-nc-module {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 26px;
+    height: 28px;
+    text-shadow: none;
+    box-shadow: none;
+    background: #fff;
+    padding: 0 15px 0;
+    border-radius: 30px;
+    border-color: #ececec;
+    color: #333;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#nicetheme-666 .nicetheme-sso-login {
+    padding: 12px 0 10px 0;
+    display: inline-block;
+    margin: 0 15px 0;
+    color: #333;
+}
+
+#nicetheme-666 .defualt-bg {
+    background: #3021ec;
+    color: #FFF;
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+#nicetheme-666 .defualt-bg span {
+    display: inline-block;
+    padding: 10px;
+}
+
+.mce-widget .mce-i-code {
+    font-family: dashicons;
+    font-size: 20px;
+}
+
+.mce-widget .mce-i-code:before {
+    content: "\f475";
+}
